@@ -285,3 +285,8 @@ section#contact {
     font-weight: 700;
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+
+  img.icon-svg {
+    height: 48px
+  }
