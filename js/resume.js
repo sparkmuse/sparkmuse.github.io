@@ -25,4 +25,8 @@
     target: '#sideNav'
   });
 
+  $(document).ready(function(){
+    $(".tip-top").tooltip({placement: "top"});   
+  });
+
 })(jQuery); // End of use strict
