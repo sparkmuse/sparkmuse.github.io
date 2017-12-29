@@ -25,8 +25,14 @@
     target: '#sideNav'
   });
 
+  // Tooltip function
   $(document).ready(function(){
     $(".tip-top").tooltip({placement: "top"});   
+  });
+
+  // Gallery function
+  $(function(){
+    $('.thumbs a').touchTouch();
   });
 
 })(jQuery); // End of use strict
