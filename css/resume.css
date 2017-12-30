@@ -10,12 +10,23 @@ body {
   overflow-x: hidden !important;
 }
 
+.container-fluid {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem; 
     overflow-x: hidden !important;
-  } 
+  }
+
+  .container-fluid {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  
 }
 
 h1,
