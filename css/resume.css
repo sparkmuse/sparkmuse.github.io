@@ -62,7 +62,7 @@ h2 {
 
 .list-icons {
   font-size: 3rem; }
-  .list-icons .list-inline-item i:hover {
+  .list-icons .list-inline-item {
     color: #BD5D38; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -302,51 +302,6 @@ section#contact {
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-
   img.icon-svg {
     height: 48px
   }
-
-
-
-.thumbs{
-  width:480px;
-  margin:60px auto 35px;
-  text-align:center;
-}
-
-.thumbs a{
-  width:120px;
-  height:120px;
-  display:inline-block;
-  border:2px solid #BD5D38;
-  box-shadow:0 1px 3px rgba(0,0,0,0.5);
-  border-radius:4px;
-  margin: 6px 6px 40px;
-  position:relative;
-  text-decoration:none;
-  
-  background-position:center center;
-  background-repeat: no-repeat;
-  
-  background-size:cover;
-  -moz-background-size:cover;
-  -webkit-background-size:cover;
-}
-
-.thumbs a:after{
-  background-color: #BD5D38;
-    border-radius: 7px;
-    bottom: -136px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    color: #FFFFFF;
-    content: attr(title);
-    display: inline-block;
-    font-size: 10px;
-    max-width: 90px;
-    overflow: hidden;
-    padding: 2px 10px;
-    position: relative;
-    text-align: center;
-    white-space: nowrap;
-}
