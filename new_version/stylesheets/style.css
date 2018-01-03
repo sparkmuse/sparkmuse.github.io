@@ -1073,14 +1073,14 @@ body.scale-effect .btn-holder .btn-play {
     #timeline-education::before {
         left: 50%;
         margin-left: -2px;
-        height: 77.1%;
+        height: 40%;
         opacity: 0.4;
         background: #06A763;
     }
     #timeline-experience::before {
         left: 50%;
         margin-left: -2px;
-        height: 69.1%;
+        height: 70%;
         opacity: 0.4;
         background: #06A763;
     }
