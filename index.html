@@ -2,451 +2,800 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Trimatrix Lab">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
 
-  <title>Alfredo Lopez</title>
+    <title>Alfredo Lopez </title>
+    <link rel="icon" href="images/site/fav-icon.png">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="vendor/devicon/devicon.min.css" rel="stylesheet">
-  <link href="vendor/font-mfizz/font-mfizz.css" rel="stylesheet">
+    <!-- Material Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Styles for the images -->
-  <link rel="stylesheet" href="vendor/touchTouch/touchTouch.css" />
+    <!-- Font awesome -->
+    <link href="stylesheets/vendors/font-awesome.min.css" rel="stylesheet">
+    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
+    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
+    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/resume.css" rel="stylesheet">
-  <link href="css/fonts.css" rel="stylesheet">
+    <!-- Devicons http://konpa.github.io/devicon/ -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none"></span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-      </ul>
+    <!-- Pre-loader -->
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="box-holder animated bounceInDown">
+                    <span class="load-box">
+                        <span class="box-inner"></span>
+                    </span>
+                </div>
+                <div class="text-holder text-center">
+                    <h2>ALFREDO LOPEZ</h2>
+                    <h6>Full Stack Software Engineer</h6>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
 
-  <div class="container-fluid p-0">
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div class="my-auto">
-        <h1 class="mb-0">Alfredo
-          <span class="text-primary">Lopez</span>
-        </h1>
-        <div class="subheading mb-5">Miami, FL 33155 · (786) 499-2788 ·
-          <a href="mailto:name@email.com">alfredo.lopez002@gmail.com</a>
+    <!-- Menu -->
+    <header id="home">
+        <nav id="theMenu" class="menu">
+            <div id="menu-options" class="menu-wrap">
+
+                <div class="logo-flat">
+                    <img alt="personal-logo" class="img-responsive" src="images/profile/alfredo.png">
+                </div>
+                <br>
+
+                <a href="#home">
+                    <i class="title-icon fa fa-user"></i>Home</a>
+                <a href="#about">
+                    <i class="title-icon fa fa-dashboard"></i>About</a>
+                <a href="#education">
+                    <i class="title-icon fa fa-graduation-cap"></i>Education</a>
+                <a href="#skills">
+                    <i class="title-icon fa fa-sliders"></i>Skills</a>
+                <a href="#experience">
+                    <i class="title-icon fa fa-suitcase"></i>Experience</a>
+                <a href="#portfolios">
+                    <i class="title-icon fa fa-archive"></i>Portfolios</a>
+                <a href="#interest">
+                    <i class="title-icon fa fa-heart"></i>Interest</a>
+            </div>
+
+            <div id="menuToggle">
+                <div class="toggle-normal">
+                    <i class="material-icons top-bar">remove</i>
+                    <i class="material-icons middle-bar">remove</i>
+                    <i class="material-icons bottom-bar">remove</i>
+                </div>
+            </div>
+        </nav>
+
+        <!--Header background-->
+        <div class="header-background section"></div>
+
+    </header>
+
+
+    <!-- V Card -->
+    <div id="v-card-holder" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <!-- Information -->
+                    <div id="v-card" class="card">
+
+                        <div id="profile" class="right">
+                            <img alt="profile-image" class="img-responsive" src="images/profile/profile.png">
+                            <div class="slant"></div>
+                        </div>
+                        <div class="card-content">
+                            <div class="info-headings">
+                                <h4 class="text-uppercase left">Alfredo Lopez</h4>
+                                <h6 class="text-capitalize left">Full Stack Software Engineer</h6>
+                            </div>
+
+                            <div class="infos">
+                                <ul class="profile-list">
+                                    <li class="clearfix">
+                                        <a href="mailto:alfredo.lopez002@gmail.com?Subject=Contact%20Form">
+                                            <span class="title">
+                                                <i class="material-icons">email</i>
+                                            </span>
+                                            <span class="content">alfredo.lopez002@gmail.com</span>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="alfredo-lopez.com">
+                                            <span class="title">
+                                                <i class="material-icons">language</i>
+                                            </span>
+                                            <span class="content">alfredo-lopez.com</span>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="skype:alfredlopezf@hotmail.com?chat">
+                                            <span class="title">
+                                                <i class="fa fa-skype" aria-hidden="true"></i>
+                                            </span>
+                                            <span class="content">alfredlopezf@hotmail.com</span>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="tel:+491795302180">
+                                            <span class="title">
+                                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                            </span>
+                                            <span class="content">+49 179 5302180</span>
+                                        </a>
+                                    </li>
+                                    <li class="clearfix">
+                                        <span class="title">
+                                            <i class="material-icons">place</i>
+                                        </span>
+                                        <span class="content">Berlin, Germany</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!--Media Links-->
+                            <div class="links">
+                                <a href="https://www.facebook.com/aelfredo" target="_blank" id="first_one" class="social btn-floating indigo">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/fredlo2010" target="_blank" class="social  btn-floating blue">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="https://plus.google.com/u/0/116301028934801189259" target="_blank" class="social  btn-floating red">
+                                    <i class="fa fa-google"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/alfredo-lopez/" target="_blank" class="social btn-floating blue">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/sparkmuse" target="_blank" class="social  btn-floating black">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                                <a href="https://www.xing.com/profile/Alfredo_Lopez28" target="_blank" class="social  btn-floating">
+                                    <i class="fa fa-xing"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="mb-5">I am an experienced software developer with a passion for reliable and secure code. Agile development and small iterations
-          provide fertile ground for making code that is resilient, simple and focused.</p>
-        <ul class="list-inline list-social-icons mb-0">
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/aelfredo" target="_blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://twitter.com/fredlo2010" target="_blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#https://www.linkedin.com/in/alfredo-lopez/" target="_blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/fredlo2010">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse" target="_blank"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.xing.com/profile/Alfredo_Lopez28" target="_blank">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+    </div>
 
-    <!-- Experience -->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-      <div class="my-auto">
-        <h2 class="mb-5">Experience</h2>
+    <!-- About -->
+    <div id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- DETAILS -->
+                    <div id="about-card" class="card">
+                        <div class="card-content">
+                            <p>
+                                I am an experienced software developer with a passion for reliable and secure code. Agile development and small iterations
+                                provide fertile ground for making code that is resilient, simple and focused.
+                            </p>
+                        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Full Stack Java Engineer</h3>
-            <div class="subheading mb-3">ALPS, A DST Company</div>
-            <p>
-              Bring to the table a fresh touch for the application and envisioned a period of change to improve code and facilated learning.
-              Tide down the domain specific elemts to the code making it more flexible and readable. Empowered the team offshore
-              maximizing the completion of features. Provided a clear vision of the business logic given all the years of
-              experience in the field.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2017 - Present</span>
-          </div>
+                        <!-- Buttons -->
+                        <div id="about-btn" class="card-action">
+                            <div class="about-btn">
+                                <a href="docs/resume.pdf" download="resume.pdf" class="btn waves-effect">Download CV</a>
+                                <a href="#home" class="btn waves-effect">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Senior Excel VBA Developer</h3>
-            <div class="subheading mb-3">Kaufman Rossin Fund Services</div>
-            <p>
-              Restructuring of the code, made possible the complete expansion of the application. The creation of a framework facilates
-              a significant improvement in the application; not only from the organization point of view, but also in the
-              form of a 90% running time gain. Created a scafold that serves as the main tool for the business logic. The
-              design of a grid that interacts with all parts of the business: mysql, rsl, api and pdfs; shaped the way applications
-              are build. Mentored new members of the team so they were able to gasp the knowledge easily.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2014 - April 2016</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Administrator</h3>
-            <div class="subheading mb-3">Alsina Forms Co</div>
-            <p>
-              Improved the way daily taks were run with the help of code, which increased productivity and minimized human errors. Created
-              a spreadsheet process that walked the whole business logic: offers proposals, logistics, billing and return
-              of material. Calculations and material values would provide a hint to the user whether the deal was profitable
-              or not.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - January 2014</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
 
     <!-- Education -->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-      <div class="my-auto">
-        <h2 class="mb-5">Education</h2>
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/book.png" alt="demo">Education</h4>
+            </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Florida International University</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science</div>
-            <p>GPA: 3.30 / 4.00</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2015 - December 2017</span>
-          </div>
+            <div id="timeline-education">
+
+                <!-- FIRST TIMELINE -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Associate of Arts in Computer Science</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Miami Dade College</small>
+                                </h6>
+                                <h6>
+                                    <small>January 2009 - January 2015</small>
+                                </h6>
+                                <h7>
+                                    <small>GPA: 3.65 / 4.00</small>
+                                </h7>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                Graduated with honors from the university and earned my first computer science realted degree.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECOND TIMELINE -->
+                <div class="timeline-block">
+                    <!-- DOT -->
+                    <div class="timeline-dot">
+                        <i class="fa fa-graduation-cap"></i>
+                    </div>
+                    <!-- TIMELINE CONTENT -->
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <!-- TIMELINE TITLE -->
+                            <h6 class="timeline-title">Bachelor of Science in Computer Science</h6>
+                            <!-- TIMELINE TITLE INFO -->
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Florida International University</small>
+                                </h6>
+                                <h6>
+                                    <small>May 2015 - December 2017</small>
+                                </h6>
+                                <h7>
+                                    <small>GPA: 3.30 / 4.00</small>
+                                </h7>
+                            </div>
+                            <!-- TIMELINE PARAGRAPH -->
+                            <p>
+                                I completed my high school degree from this prestigious institution. I successful completed all the credits without any fallout.
+                                It provided the foundation for all the academic computer science knowledge.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
+    </section>
 
-        <div class="resume-item d-flex flex-column flex-md-row">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0">Miami Dade College</h3>
-            <div class="subheading mb-3">Associates of Arts</div>
-            <div>Computer Science</div>
-            <p>GPA: 3.65 / 4.00</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2009 - January 2015</span>
-          </div>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/mixer.png" alt="demo">Skills</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="skills-card" class="card">
+                        <div class="card-content">
+                            <div class="row">
+
+                                <!-- First skill group -->
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="skills-title">
+                                        <h6 class="text-center">Backend</h6>
+                                    </div>
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-java-plain"></i> Java</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="fa fa-leaf"></i> Spring</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-csharp-plain"></i> C#</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="fab fa-node-js"></i> Node.js</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-express-original"></i> Express</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-mysql-plain"></i> MySQL</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-mongodb-plain"></i> Mongodb</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                </div>
+
+                                <!-- Second skill group -->
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+
+                                    <div class="skills-title">
+                                        <h6 class="text-center">Frontend</h6>
+                                    </div>
+
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-html5-plain"></i> HTML5</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-css3-plain"></i> CSS3</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+
+                                    <div class="skillbar" data-percent="60%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-sass-plain"></i> SASS</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">60%</div>
+                                    </div>
+
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-javascript-plain"></i> JavaScript</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+
+                                    <div class="skillbar" data-percent="60%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-typescript-plain"></i> TypeScript</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">60%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="85%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-angularjs-plain"></i> Angular</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">85%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                </div>
+
+                                <!-- Third skill group -->
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="skills-title">
+                                        <h6 class="text-center">Other</h6>
+                                    </div>
+                                    <div class="skillbar" data-percent="85%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-github-plain"></i> Git</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">85%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title">
+                                            <span>>_ Bash</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="85%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-apache-plain"></i> Maven</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">85%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-gradle-plain"></i> Gradle</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="60%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="fab fa-jenkins"></i> Jenkins</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <div class="skillbar" data-percent="60%">
+                                        <div class="skillbar-title">
+                                            <span>
+                                                <i class="devicon-amazonwebservices-original"></i> AWS</span>
+                                        </div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">60%</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-      <div class="my-auto">
-        <h2 class="mb-5">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <div>Advanced</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i title="Java" class="tip-top">
-              <img class="icon-svg" src="img/icon/java.svg">
-            </i>
-          </li>
-          <li class="list-inline-item">
-            <i title="C Sharp" class="devicon-csharp-line colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="C" class="devicon-c-line colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Spring" class="tip-top">
-              <img class="icon-svg d-flex" src="img/icon/spring.svg" />
-            </i>
-          </li>
-          <li class="list-inline-item">
-            <i title="MySql" class="devicon-mysql-plain-wordmark colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="HTML5" class="devicon-html5-plain-wordmark colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="CSS3" class="devicon-css3-plain-wordmark colored tip-top"></i>
-          </li>
-        </ul>
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
 
-        <div>Intermediate</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i title="Python" class="devicon-python-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Express" class="devicon-express-original colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Node.js" class="devicon-nodejs-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="JavaScript" class="devicon-javascript-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Bootstrap" class="devicon-bootstrap-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Angular 4" class="devicon-angularjs-plain colored tip-top"></i>
-          </li>
-        </ul>
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/layers.png" alt="demo">Experience</h4>
+            </div>
 
-        <div>Beginner</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i title="MongoDB" class="devicon-mongodb-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="CouchDB" class="tip-top">
-              <img class="icon-svg" src="img/icon/couchdb.png">
-            </i>
-          </li>
-          <li class="list-inline-item">
-            <i title="F#" class="tip-top">
-              <img class="icon-svg" src="img/icon/fsharp.png">
-            </i>
-          </li>
-        </ul>
+            <div id="timeline-experience">
 
-        <div>Other</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i title="Tortoise SVN" class="tip-top">
-              <img class="icon-svg" src="img/icon/tortoise.png">
-            </i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Git" class="devicon-git-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Bash" class="tip-top">
-              <img class="icon-svg" src="img/icon/bash.png">
-            </i>
-          </li>
-        </ul>
+                <!-- First experience -->
+                <div class="timeline-block">
+                    <div class="timeline-dot">
+                        <h6>K</h6>
+                    </div>
 
-        <div>Build</div>
-        <ul class="list-inline list-icons">
-          <li class="list-inline-item">
-            <i title="Maven" class="tip-top">
-              <img class="icon-svg" src="img/icon/maven.png" />
-            </i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Gradle" class="devicon-gradle-plain colored tip-top"></i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Apache Ant" class="tip-top">
-              <img class="icon-svg" src="img/icon/ant.svg" />
-            </i>
-          </li>
-          <li class="list-inline-item">
-            <i title="Jenkins" class="tip-top">
-              <img class="icon-svg" src="img/icon/jenkins.svg">
-            </i>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-      <div class="my-auto">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a computer programmer, I love to travel. I spend a lot of time wandering the world, interacting
-          with peoples and cultures. I am always dreaming about my next destination; planning routes and trips; learning
-          languages and history. An amazing night for me is just some beers in a hostel surrounded with other travelers.</p>
-
-        <p class="mt-2 mb-2">When I was little, I discovered a book among my father’s things; it was called: “ABC the History of the Alphabet”
-          And I do not why I loved it so much that today is something I cherish with passion. To know about the words, the
-          letters, where they came from and the history behind them is just fascinating. Etymology is without a doubt one
-          of my biggest passions; and when mixed with the traveler’s mind then, let’s say I am a complete person. </p>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-      <div class="my-auto">
-        <h2 class="mb-5">Projects</h2>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/projects/1.jpg" alt="">
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <h6 class="timeline-title">Excel VBA Developer</h6>
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Kaufman Rossin Fund Services</small>
+                                </h6>
+                                <h6>
+                                    <small>Jan 2014 - Apr 2016</small>
+                                </h6>
+                            </div>
+                            <p>
+                                I started the core of my carreer as a developer here. I worded on the optimization of existing code to gain maximum performance.
+                                I designed and implementation of new features and refactored existing code for effectiveness
+                                and legibility. All this while keeping a high standards and clean code implementations. Connected
+                                several parts of the business with a single application which increased performace and gain.
+                                As part of my job, after becoming a sinior, I helped to train new coworkers.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>August 2017</h4>
-                    <h4 class="subheading">Vocabulary in Reading Study</h4>
 
-                    <ul class="list-inline list-social-icons mb-0">
-                      <li class="list-inline-item">
-                        <a href="https://github.com/fredlo2010/VIR-2.0" target="_blank">
-                          <span class="fa-stack fa-md">
-                            <i class="fa fa-github fa-stack-2x"></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                          <a href="http://myvirs.com"  target="_blank">
-                            <span class="fa-stack fa-md">
-                              <i class="fa fa-globe fa-stack-2x"></i>
-                            </span>
-                          </a>
-                      </li>
-                      <li class="list-inline-item">
-                          <a href="https://itunes.apple.com/us/app/vocabulary-in-reading-study/id1307321112"  target="_blank">
-                            <span class="fa-stack fa-md">
-                              <i class="fa fa-apple fa-stack-2x "></i>
-                            </span>
-                          </a>
-                      </li>
+                <!-- Second experience -->
+                <div class="timeline-block">
+                    <div class="timeline-dot">
+                        <h6>A</h6>
+                    </div>
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <h6 class="timeline-title">Full Stack Java Engineer</h6>
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>ALPS, a DST Company</small>
+                                </h6>
+                                <h6>
+                                    <small>Jun 2017 - Jan 2018</small>
+                                </h6>
+                            </div>
+                            <p>
+                                After finishing school, I returned to my old company (with a different name, but same people). I worked on the main inhouse
+                                application that glues the business together. While working in an agile and scalanble fashion,
+                                I designed and build sevral REST Apis with the Spring Framework.
+                            </p>
 
-                      <li class="list-inline-item">
-                          <a href="https://play.google.com/store/apps/details?id=com.vir.vir_android&anp;hl=en"  target="_blank">
-                            <span class="fa-stack fa-sm">
-                              <i class="fa fa-android fa-stack-2x"></i>
-                            </span>
-                          </a>
-                      </li>
+                        </div>
+                    </div>
+                </div>
 
-                    </ul>
-                  </div>
-                  <div class="timeline-body mt-2">
-                    <p class="text-muted">One of the major challenges that English Language learners and mainstream
-                        students face is the lack of a reliable source to improve their vocabulary. There is no easy
-                        way to validate the easiness of text, which allows professors to select the appropriate materials
-                        for class. A challenging text is a wonderful way to propel students forward, yet something too
-                        hard to read can cause the opposite effect. Vocabulary in Reading Study(VIRS) is the solution to
-                        all these problems.</p>
-                  </div>
-                </div>
-              </li>
+                <!-- Second experience -->
+                <div class="timeline-block">
+                    <div class="timeline-dot">
+                        <h6>I</h6>
+                    </div>
+                    <div class="card timeline-content">
+                        <div class="card-content">
+                            <h6 class="timeline-title">idealo internet GmbH</h6>
+                            <div class="timeline-info">
+                                <h6>
+                                    <small>Software Developer</small>
+                                </h6>
+                                <h6>
+                                    <small>Jan 2018 - Present</small>
+                                </h6>
+                            </div>
+                            <p>
+                                I recently joined this company and it's my first working expericence outside the USA. I work on one of the main poducts wich
+                                allows the exploration of new and innovative technologies. The application is a green field
+                                of microservices which allows the immagination to expand while acheiving all the benchmarks.
+                            </p>
 
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/timeline/2.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                      temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/timeline/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
-                      temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+            </div>
         </div>
-      </div>
     </section>
-  </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Projects -->
+    <section id="portfolios" class="section" hidden>
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/safe.png" alt="demo">Portfolios</h4>
+            </div>
+            <div id="portfolios-card" class="row">
+                <!--CATEGORIES CONTENT-->
+                <div class="tab-content">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+                    <!--CATEGORY CONTENT ONE BIG-->
+                    <div class="col-md-4 col-sm-12 col-xs-12 grid big">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/big-1.jpg" class="img-responsive" alt="portfolio-demo" />
+                            <figcaption>
+                                <h2>Vocabulary In Reading</h2>
+                                <p>Two Hover Effect For Portfolio Grid Blocks. Its Scale</p>
+                                <a href="images/portfolios/virs.jpg" class="popup-image">View more
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/portfolio-4.jpg" class="img-responsive" alt="portfolio-demo" />
+                            <figcaption>
+                                <h2>UniPS</h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 grid">
+                        <figure class="port-effect-scale">
+                            <img src="images/portfolios/json2model.jpg" class="img-responsive" alt="portfolio-demo" />
+                            <figcaption>
+                                <h2>Json To Model</h2>
+                                <p>Showcase Your Portfolio in Details on a Single Page</p>
+                                <a href="single-portfolio.html">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.js"></script>
+    <!-- Interests -->
+    <section id="interest" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/heart.png" alt="demo">Interest</h4>
+            </div>
 
-  <!-- Scripts for the Images -->
-  <script src="vendor/touchTouch/touchTouch.jquery.js"></script>
+            <div id="interest-card" class="card">
+                <!--INTEREST TEXT-->
+                <div class="card-content">
+                    <p>Apart from being a computer programmer, I love to travel. I spend a lot of time wandering the world,
+                        interacting with peoples and cultures. I am always dreaming about my next destination; planning routes
+                        and trips; learning languages and history. An amazing night for me is just some beers in a hostel
+                        surrounded with other travelers.</p>
 
+                    <p>
+                        <i class="fa fa-leaf"></i>
+                    </p>
+
+                    <p class="">When I was little, I discovered a book among my father’s things; it was called: “ABC the History of the
+                        Alphabet” And I do not why I loved it so much that today is something I cherish with passion. To
+                        know about the words, the letters, where they came from and the history behind them is just fascinating.
+                        Etymology is without a doubt one of my biggest passions; and when mixed with the traveler’s mind
+                        then, let’s say I am a complete person. </p>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-uppercase text-center">
+                    <img src="images/icons/handshake.png" alt="demo">References</h4>
+            </div>
+            <div id="testimonials-card" class="row card">
+                <div class="col-md-12 col-xs-12">
+
+                    <!-- Slider -->
+                    <div id="clients-slider" class="swiper-container swiper-container-clients">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="col-md-12">
+                                    <div class="client-img center-block">
+                                        <img alt="client-image" class="center-block" src="images/clients/alex.jpg">
+                                    </div>
+                                    <blockquote>
+                                        Knowledge and passion are the perfect mix to describe Alfredo's work. I had the privilege to work along Alfredo for over
+                                        a year as his team partner in a development group at KRFS/ALPS. I was impressed by
+                                        his ability to lead our team to a high and efficient development process stage. He
+                                        was not only a good leader to our team, but also an excellent coach. In particular,
+                                        he guided me through the best approaches, practical knowledge explanations, and preferred
+                                        solutions for an specific problem. I am pretty sure everyone still miss his laugh
+                                        here at the office. Alfredo is a very passionate and skilled team member.
+                                        <cite>Alex, Sr. Developer, ALPS.</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="col-md-12">
+                                    <div class="client-img center-block">
+                                        <img alt="client-image" class="center-block" src="images/clients/aaron.jpg">
+                                    </div>
+                                    <blockquote>
+                                        When it comes to Excel based macros (as well as other advanced excel tools such as pivot tables, formulas, etc...) I have
+                                        never met anyone in my life more knowledgeable Alfredo. Whatever task you give him
+                                        he will complete it on time with the best quality. His attention to detail & work
+                                        product are always top notch, however it is he positive attitude, friendly personality
+                                        & great sense of humor that make him a pleasure to work with. As a direct manager
+                                        to Alfredo for 2+ years, I was really able to see his passion for what he does. He
+                                        enjoyed coming to work each & every day to problem solve, help others & he made our
+                                        company great!
+                                        <cite>Aaron Bernstein, Director, ALPS.</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="col-md-12">
+                                    <div class="client-img center-block">
+                                        <img alt="client-image" class="center-block" src="images/clients/mohini.jpg">
+                                    </div>
+                                    <blockquote>
+                                        It is with great pleasure that I recommend Alfredo Lopez. We have worked together for 3 years. Alfredo has always displayed
+                                        a high degree of responsibility, intelligence and ambition. He is definitely an asset
+                                        to any team, but is capable of working independently. In addition to his excellent
+                                        accomplishments for the company, he has proven his ability and knowledge on day to
+                                        day task.
+                                        <cite>Mohini Gomez, Accounts Receivable, Publicitas.</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="col-md-12">
+                                    <div class="client-img center-block">
+                                        <img alt="client-image" class="center-block" src="images/clients/mike.jpg">
+                                    </div>
+                                    <blockquote>
+                                        What you can expect from Alfredo is a streamlined honest process built upon open communication and thorough market/industry
+                                        knowledge that dramatically simplifies the administrative process in construction.
+                                        He is a partner to be relied upon from the start of a project, in the planning/preparation
+                                        development phase, through punch out, and on through the life of the building. Our
+                                        vast experience with Alfredo Lopez is just one example of the commitment that he
+                                        has made in developing lasting relationships built upon integrity and mutual respect.
+                                        <cite>Michael Benzo, Property Inspector, Benzo Properties.</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination-clients"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll Up -->
+    <div id="scroll-top">
+        <div id="scrollup">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+
+
+    <!-- Foot -->
+    <footer>
+        <div class="container">
+            <p class="text-center">
+                © All right reserved by
+                <a href="http://alfredo-lopez.com/" target="_blank">
+                    <strong>Alfredo Lopez</strong>
+                </a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="javascript/vendors/jquery-2.1.3.min.js"></script>
+    <script src="javascript/vendors/bootstrap.min.js"></script>
+    <script src="javascript/vendors/materialize.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+    <script src="javascript/vendors/markerwithlabel.min.js"></script>
+    <script src="javascript/vendors/scrollreveal.min.js"></script>
+    <script src="javascript/vendors/swiper.jquery.min.js"></script>
+    <script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="javascript/custom.js"></script>
 </body>
 
 </html>
