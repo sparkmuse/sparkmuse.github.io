@@ -108,7 +108,7 @@
     });
 
     jQuery(window).on('load', function () {
-        $('div#loading').fadeOut(100);
+        $('div#loading').fadeOut(50);
         window.sr = ScrollReveal({
             reset: false
         });
