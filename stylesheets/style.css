@@ -948,7 +948,7 @@ body.scale-effect .btn-holder .btn-play {
     position: absolute;
     top: 0;
     bottom: 23px;
-    left: 50%;
+    left: 100%;
     height: 99.5%;
     width: 4px;
     opacity: 0.3;
