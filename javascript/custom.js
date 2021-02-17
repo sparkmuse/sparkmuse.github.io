@@ -115,7 +115,7 @@
         var commonCards = 
         '#port-add-icon,.interest-icon-even,.interest-icon,' + 
         '.timeline-dot,.timeline-content,#add-more,#skills-card,#testimonials-card,' + 
-        '#portfolios-card,#interest-card,#p-one,#p-two,#p-three,#blog-card,#contact-card,#clients,.section-title img';
+        '#interest-card,#p-one,#p-two,#p-three,#blog-card,#contact-card,#clients,.section-title img';
         sr.reveal(commonCards);
         sr.reveal('#about-card,.map-label');
 
