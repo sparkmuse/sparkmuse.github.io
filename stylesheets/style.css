@@ -948,8 +948,8 @@ body.scale-effect .btn-holder .btn-play {
     position: absolute;
     top: 0;
     bottom: 23px;
-    left: 100%;
-    height: 99.5%;
+    left: 50%;
+    height: 86%;
     width: 4px;
     opacity: 0.3;
     background: #06A763;
@@ -1073,14 +1073,14 @@ body.scale-effect .btn-holder .btn-play {
     #timeline-education::before {
         left: 50%;
         margin-left: -2px;
-        height: 40%;
+        height: 50%;
         opacity: 0.4;
         background: #06A763;
     }
     #timeline-experience::before {
         left: 50%;
         margin-left: -2px;
-        height: 80%;
+        height: 78%;
         opacity: 0.4;
         background: #06A763;
     }
@@ -1112,7 +1112,7 @@ body.scale-effect .btn-holder .btn-play {
     .timeline-block:nth-child(even) .timeline-content::before {
         top: 25px;
         left: auto;
-        right: 101.2%;
+        right: 100%;
         z-index: -2;
     }
 }
